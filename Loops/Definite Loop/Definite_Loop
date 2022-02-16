@@ -1,0 +1,71 @@
+Generally will use range it python, but will use the size of an Object
+"For item in list" do...something
+
+Examples:
+    Sum all the numbers in a list
+    Update a list value
+    Search for a value in a list
+
+Generally use a for loop when what you are doing is finite, or to a certain point
+
+
+--------------------------------------------------------------------------------------------------------------
+>>> x = range (3)
+>>> x
+range(0, 3)
+>>> for number in x:
+	print(number)
+
+
+0
+1
+2
+>>> type(x)
+<class 'range'>
+--------------------------------------------------------------------------------------------------------------
+>>> a_list = range(0,3)
+>>> [0,1,2]
+[0, 1, 2]
+>>> for number in a_list:
+	print(number)
+
+
+0
+1
+2
+>>> a_list = range(2,5)
+>>> [2,3,4]
+[2, 3, 4]
+>>> for number in a_list:
+	print(number)
+
+
+2
+3
+4
+>>> a_list = range(0,10,2)
+>>> for number in a_list:
+	print(number)
+
+
+0
+2
+4
+6
+8
+>>> a_list = range(50, 40, -1)
+>>> for number in a_list:
+	print(number)
+
+
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+-------------------------------------------------------------------------------------------------------------

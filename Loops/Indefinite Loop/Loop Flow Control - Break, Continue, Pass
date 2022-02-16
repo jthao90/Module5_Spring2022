@@ -1,0 +1,26 @@
+Use "break" to stop going through a loop
+-------------------------------------------------------------------------------------------------------------
+        *** veggies = ['artichoke', 'cucumber', 'green beans']
+            for v in veggies:
+                print(v)
+                if v == 'cucumber':
+                    break
+--------------------------------------------------------------------------------------------------------------
+Use "continue" to skip the res of a loop
+
+>>>while x < 101:
+        x += 1
+        if x%5 != 0:
+                continue
+        print(x)
+
+
+
+0
+5
+10
+
+--------------------------------------------------------------------------------------------------------------
+Use "pass" as a null operation; nothing happens. Generally used as a placeholder
+
+def f(arg): pass

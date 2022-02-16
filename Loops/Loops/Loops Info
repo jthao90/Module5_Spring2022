@@ -1,0 +1,24 @@
+Repeat a block of code. Can be:
+    Definte (repeat a certain # of times)
+    Indefinite * repeat until a condition is met)
+        Note there are ways to stop both types, and you can cause an infinite loop
+
+Notice it contains a selection case at B
+
+               A
+               |
+               |
+              \ /
+-------------> B ----------False
+|              |             |
+|              |             |
+|        True \ /            |
+|              D             |
+|              |             |
+|              |             |
+|             \ /           \ /
+|              C
+|              |
+|              |
+|              |
+----------------

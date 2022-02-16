@@ -1,0 +1,27 @@
+While condition:
+    statements
+    loop condtion update
+
+Be sure in your statements you change 'condtion' so you don't make an infinite loop!
+
+Some infinite loops are on purpose...(Making a listener like in an OS or on a server, in a video game)
+but generally your code won't want them
+
+Use cases:
+    Validate user input: while (input is bad): as for better input
+    Counting, searching
+--------------------------------------------------------------------------------------------------------------
+>>> while (True):
+	print('For-ev-er')
+
+
+For-ev-er
+For-ev-er
+For-ev-er
+For-ev-er
+""
+""
+""
+""
+---------------------------------------------------------------------------------------------------------------
+
